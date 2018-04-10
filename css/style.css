@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?cs=srgb&dl=earth-lights-world-41949.jpg&fm=jpg');
+	background-size: cover;
+	font-family: 'Rubik', sans-serif;
+	background-repeat: no-repeat;
+	color: #fff;
+	letter-spacing: 2px;
+}
+h1, h2 {
+	text-align: left;
+	margin-left: 710px;
+}
+input {
+	margin-left: 710px;
+}
+.table-header .flag {
+	text-align: right;
+	width: 900px;
+}
+.table-header .name {
+	font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+	text-align: left; 
+	max-width: 300px;
+}
+tr td:nth-child(odd) {
+	width: 50%;
+	padding: 10px;
+	text-align: right;
+}
+tr td:nth-child(even) {
+	width: 50%;
+	padding: 10px 30px;
+}
+.flag img {
+	margin: 40px 0 0 40px;
+    height: auto;
+    width: 200px;
+}
+
+
+
